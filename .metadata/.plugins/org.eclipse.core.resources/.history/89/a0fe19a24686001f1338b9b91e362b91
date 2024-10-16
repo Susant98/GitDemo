@@ -1,0 +1,18 @@
+package SDET_pavan;
+
+import java.util.Arrays;
+
+public class MutiableVSImmutable {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		
+		//mutuable can change
+		int a[] = {10,30,20};
+		Arrays.sort(a);
+		System.out.println("After sorting "+Arrays.toString(a));
+
+	}
+
+}

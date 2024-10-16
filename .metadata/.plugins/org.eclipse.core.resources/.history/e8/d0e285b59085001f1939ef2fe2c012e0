@@ -1,0 +1,18 @@
+package SDET_pavan;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class DatePicker {
+
+	public static void main(String[] args) {
+		System.setProperty("webdriver.chrome.driver", "C:\\Automation\\Driver\\chromedriver.exe");
+		WebDriver driver = new ChromeDriver();
+		//driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
+		String url = "https://vinothqaacademy.com/demo-site/";
+		driver.get(url);
+		driver.manage().window().maximize();
+
+	}
+
+}

@@ -1,0 +1,10 @@
+package SDET_pavan;
+
+public class Static_nonStatic {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
